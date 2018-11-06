@@ -1,11 +1,35 @@
 {
-  "posts": [
+  name: 'My Tree',
+  children: [
+    { name: 'hello' },
+    { name: 'wat' },
     {
-      "id": 1,
-      "title": "hello"
+      name: 'child folder 1',
+      children: [
+        {
+          name: 'child folder 2',
+          children: [
+            { name: 'hello' },
+            { name: 'wat' },
+            { name : 'subb',
+              children : [
+               { name : 'subb 1'},
+               { name : 'subb 2'}
+               
+              ]
+            }
+          ]
+        },
+        { name: 'hello' },
+        { name: 'wat' },
+        {
+          name: 'child folder',
+          children: [
+            { name: 'hello' },
+            { name: 'wat' }
+          ]
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
