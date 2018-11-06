@@ -1,10 +1,10 @@
 {
-  "name": "My Tree",
-  "children" : [
-    { "name": "hello" },
-    { "name": "wat" },
-    {
-      "name": "child folder 1",
+  "data" : [
+    "name": "My Tree",
+    "children" : [
+      { "name": "hello" },
+      { "name": "wat" },
+      { "name": "child folder 1",
       "children": [
         {
           "name": "child folder 2",
@@ -31,4 +31,5 @@
       ]
     }
   ]
+ ]
 }
