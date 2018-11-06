@@ -1,5 +1,5 @@
 {
-  "data" : [
+  "data" :  {
     "name": "My Tree",
     "children" : [
       { "name": "hello" },
@@ -31,5 +31,5 @@
       ]
     }
   ]
- ]
+ }
 }
